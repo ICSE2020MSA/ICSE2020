@@ -58,6 +58,98 @@
 			<a href="https://github.com/ICSE2020MSA/ICSE2020/blob/master/survey_data.xls?raw=true" target="_blank" rel="noopener noreferrer">Survey Data</a>
 			
 
+	     <table class="table" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;">
+	  <thead>
+        <tr>
+            <td class="first" colspan="1"><span class="title1">Source</span><br><span class="title2">Num.</span><br><span class="title3">Type</span></td>
+            <td>Survey</td>
+            <td>Interview</td>
+        </tr>
+	   </thead>
+        <tr>
+                            <td>Issues</td>
+                            <td>1, 3, 4, 5, 10 </td>
+
+                            <td>2, 6, 7, 8, 9, 11</td>
+                        </tr>
+                        <tr>
+                            <td>Practices</td>
+                            <td>1, 4, 10</td>
+
+                            <td>2, 3, 5, 6, 7, 8, 9, 11</td>
+                        </tr>
+                        <tr>
+                            <td>Challenges</td>
+                            <td>1</td>
+
+                            <td>2, 3, 4, 5, 6, 7, 8, 9, 10, 11</td>
+                        </tr>
+    </table>
+
+
+
+    <style>
+table {
+    border-collapse: collapse;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+    height: 50px; /*这里需要自己调整，根据自己的需求调整高度*/
+    position: relative;
+}
+td[class=first]{
+    width: 100px;
+}
+td[class=first]:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 104px;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: block;
+    transform: rotate(-75deg);
+    transform-origin: top;
+    -ms-transform: rotate(-75deg);
+    -ms-transform-origin: top;
+}
+td[class=first]:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 71px;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: block;
+    transform: rotate(-45deg);
+    transform-origin: top;
+    -ms-transform: rotate(-45deg);
+    -ms-transform-origin: top;
+}
+.title1{
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.title2{
+    position: absolute;
+    top: 24px;
+    right:0px;
+}
+.title3{
+    position: absolute;
+    top: 28px;
+    left:0px;
+}
+</style>
+	
 		</div>
 	</div>
 

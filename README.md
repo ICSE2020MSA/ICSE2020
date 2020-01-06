@@ -1,2 +1,2 @@
-# ICSE2020
-https://icse2020msa.github.io/ICSE2020/index.html
+# TSE 2020
+https://replication-package-tse.github.io/TSE2020/index.html
